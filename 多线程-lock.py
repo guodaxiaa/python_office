@@ -23,7 +23,7 @@ t1.join()
 t2.join()
 print('blance:',blance)
 #死循环
-import  multiprocessing
+'''import  multiprocessing
 
 def lop():
     x=0
@@ -33,3 +33,10 @@ def lop():
 for i in range(10):
     t=threading.Thread(target=lop)
     t.start()
+'''
+#ThreadLocal
+# python 还提供了 ThreadLocal 变量，它本身是一个全局变量，
+# 但是每个线程却可以利用它来保存属于自己的私有数据，这些私有数据对其他线程也是不可见的
+
+
+
