@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #coding:utf-8
+import re
 import os
 g=os.walk('C:\\') #生成的是一个三元数组,第一个是路径，第二个是路径下面的目录，第三个是路径下面的非目录
 path_dic=[]
